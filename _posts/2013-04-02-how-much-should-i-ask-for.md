@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How much should I ask for?"
+description: "As we said in our previous post, our values are: easy, open and secure."
 ---
 
 As we said in our previous post, our values are: easy, open and secure.

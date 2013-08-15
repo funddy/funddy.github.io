@@ -1,6 +1,4 @@
 markdown: redcarpet
 pygments: true
 permalink: /:title
-title: Funddy | Blog
 url: http://blog.funddy.com
-content: <a href="esto es una prueba">Prueba</a>

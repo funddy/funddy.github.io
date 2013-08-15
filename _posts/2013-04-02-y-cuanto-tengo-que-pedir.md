@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "¿Y cuanto tengo que pedir?"
+description: "Como ya decíamos en el post anterior nuestros valores son: fácil, abierto y seguro."
 ---
 
 Como ya decíamos en el post anterior nuestros valores son: fácil, abierto y seguro.

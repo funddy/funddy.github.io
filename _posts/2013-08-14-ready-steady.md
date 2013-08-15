@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Ready, Steady…"
+description: "We are quite anxious and we want you to know. After lots of hour of work, dealing with customer journey, UX and many other product development tasks, we are, at last, ready to release something we feel really proud of."
 ---
 
 ![Rocket](http://i.imgur.com/wVMVOnz.png)

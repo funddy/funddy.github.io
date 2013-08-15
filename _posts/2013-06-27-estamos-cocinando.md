@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Estamos cocinando"
+description: "Desde hace un mes, estamos preparando nuestro “main course”. Os dimos los aperitivos de esta herramienta de crowdfunding y ahora nos disponemos a sacar el plato que esperamos nos haga ganarnos vuestra aceptación."
 ---
 
 Desde hace un mes, estamos preparando nuestro “main course”. Os dimos los aperitivos de esta herramienta de crowdfunding y ahora nos disponemos a sacar el plato que esperamos nos haga ganarnos vuestra aceptación.

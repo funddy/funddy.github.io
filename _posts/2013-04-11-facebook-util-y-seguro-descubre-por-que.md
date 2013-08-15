@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Facebook. Útil y Seguro, descubre por qué."
+description: "Desde el inicio de Funddy algo nos ha rondado por la cabeza. Muchas dudas, búsqueda de alternativas y feedback de otros proyectos. Pero, al final, siempre volvíamos al mismo sitio: La forma más fácil de registrarse es utilizar Facebook. Y no sólo eso, además es una manera de verificar al usuario que crea su campaña en Funddy. "
 ---
 
 Desde el inicio de Funddy algo nos ha rondado por la cabeza. Muchas dudas, búsqueda de alternativas y feedback de otros proyectos. Pero, al final, siempre volvíamos al mismo sitio: La forma más fácil de registrarse es utilizar Facebook. Y no sólo eso, además es una manera de verificar al usuario que crea su campaña en Funddy. 
