@@ -1,0 +1,16 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+{% for post in site.posts %}
+  <li>
+    <div class="post text">
+      <h4><a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_string }}</a></h4>
+
+      <h3>{{ post.title }}</h3>
+                               
+      {{ post.content }}
+    </div>
+  </li>
+{% endfor %}

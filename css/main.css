@@ -1,0 +1,380 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ v2.0 | 20110126
+ License: none (public domain)
+ */
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed,
+ figure, figcaption, footer, header, hgroup,
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Styles */
+
+body {
+  color: #555555;
+  font: normal 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background: #EEF0F3;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration: none;
+  color: #5896b6;
+  -webkit-transition: color 100ms ease-out;
+  -moz-transition: color 100ms ease-out;
+  -o-transition: color 100ms ease-out;
+  transition: color 100ms ease-out;
+}
+a:hover, a:focus {
+  color: #3b6d87;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #555555;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: "adage-script", sans-serif;
+  color: #5896B6;
+  letter-spacing: -1px;
+  font-size: 44px;
+  line-height: 1.6;
+  margin-top: 40px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 > a > span {
+  font:  21px/1.5 "adelle", serif;
+  color: #9BA1A6;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: 5px;
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h3 {
+  font-family: "adelle", serif;
+  font-size: 26px;
+  line-height: 1.6;
+  color: #424D57;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 1em;
+}
+
+h4 {
+  font-size: 14px;
+  position: absolute;
+  border-right: 1px solid #E5E5E5;
+  padding: 6px 40px 6px 0;
+  width: 200px;
+  text-align: right;
+  margin: 5px 0 0 -260px;
+}
+
+h4 a { color: #BBB; }
+
+h5 {
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+strong { font-weight: bold; }
+em { font-style: italic; }
+
+img {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  border: 0;
+}
+
+::-moz-selection, ::selection {
+  color: white;
+  background: #c2d9e5;
+}
+
+::selection:window-inactive {
+  background: #c2d9e5;
+}
+
+header {
+  width: 650px;
+  margin: 0 auto;
+}
+
+#description {
+  font: 18px/1.5 "adelle", serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 40px 0;
+  color: #9BA1A6;
+  width: 510px;
+}
+
+#posts > li {
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+#posts > li > .post {
+  width: 650px;
+  margin: 0 auto;
+  position: relative;
+  padding: 40px 0;
+}
+
+#posts > li > .post p,
+#posts > li > .post ul,
+#posts > li > .post ol {
+  font-family: "adelle", serif;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  font-size: 18px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 1em;
+}
+
+#posts > li > .post > p:last-child { margin: 0; }
+
+#posts > li > .post ul,
+#posts > li > .post ol {
+  margin-left: 2em;
+  list-style-type: disc;
+}
+
+#posts > li > .post.link p {
+  margin-top: 8px !important;
+}
+
+#posts > li > .post > .caption {
+  color: #BBB;
+  margin-top: 1em;
+}
+
+#posts > li > .post > blockquote > p {
+  font-size: 32px;
+  line-height: 1.3;
+  margin-bottom: .5em;
+}
+
+#posts > li > .post > .tags {margin:40px 0 0;}
+#posts > li > .post > .tags > li { display: inline;}
+#posts > li > .post > .tags > li > a {
+  display: inline-block;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  border: 2px solid #ECEDEE;
+  list-style-type: none;
+  color: #C6C9CC;
+  margin-right: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  padding: 1px 13px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-transition: all 100ms;
+  -moz-transition: all 100ms;
+  -o-transition: all 100ms;
+  transition: all 100ms;
+}
+#posts > li > .post > .tags > li > a:hover {
+  border-color: #C6C9CC;
+  color: #A0A6AB;
+}
+
+blockquote > .source {
+  color: #BBB;
+}
+
+blockquote > p::before, blockquote > p::after { display: inline; }
+blockquote > p::before { content: '\201C'; }
+blockquote > p::after { content: '\201D'; }
+
+
+
+footer {
+  width: 700px;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 0px;
+}
+
+footer > ol > li {
+  display: inline-block;
+  margin-right: 40px;
+  font: normal 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+footer > ol > li:last-child { margin: 0; }
+
+footer > ol > li input {
+  font-family: "adelle", serif;
+  color: #555;
+  padding: 8px 15px;
+  margin-right: 10px;
+  -webkit-appearance: none;
+  border: 2px solid #E5E5E5;
+  outline: 0;
+  width: 180px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-transition: border-color 100ms;
+  -moz-transition: border-color 100ms;
+  -o-transition: border-color 100ms;
+  transition: border-color 100ms;
+}
+footer > ol > li input:focus { border-color: #BBB; }
+
+footer > ol > li button {
+  background-color: #5896B6;
+  padding: 10px 16px;
+  color: white;
+  min-width: 100px;
+  border: 0;
+  margin: 0;
+  cursor: pointer;
+  
+  box-shadow: rgba(0, 0, 0, 0.08) 0 -0.2em 0 inset, rgba(0, 0, 0, 0.08) 0 0.2em 0;
+  font-weight: 500;
+  text-shadow: rgba(0, 0, 0, 0.15) 0 0.12em 0;
+  padd
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: background-color 100ms;
+  -moz-transition: background-color 100ms;
+  -o-transition: background-color 100ms;
+  transition: background-color 100ms;
+}
+footer > ol > li button:hover { background-color: #4A8AAA; }
+</style>
+
+<script type="text/javascript" src="/bundles/funddicore/js/lib/modernizr-2.5.3.min.js"></script>
+<script type="text/javascript" src="//use.typekit.net/ywb2rek.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<style rel='stylesheet' type='text/css'>
+/* Pretty printing styles. Used with prettify.js. */
+
+/* SPAN elements with the classes below are added by prettyprint. */
+.pln { color: #777; }  /* plain text */
+
+@media screen {
+  .str { color: #9DC61E; }  /* string content */
+  .kwd { color: #B28BE3; }  /* a keyword */
+  .com { color: #BBB }  /* a comment */
+  .typ { color: #EAB353; }  /* a type name */
+  .lit { color: #066 }  /* a literal value */
+  /* punctuation, lisp open bracket, lisp close bracket */
+  .pun, .opn, .clo { color: #DF7A77; }
+  .tag { color: #B28BE3; }  /* a markup tag name */
+  .atn { color: #DF7A77; }  /* a markup attribute name */
+  .atv { color: #9DC61E; }  /* a markup attribute value */
+  .dec, .var { color: #EAB353; }  /* a declaration; a variable name */
+  .fun { color: red }  /* a function name */
+}
+
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+  .str { color: #060 }
+  .kwd { color: #006; font-weight: bold }
+  .com { color: #600; font-style: italic }
+  .typ { color: #404; font-weight: bold }
+  .lit { color: #044 }
+  .pun, .opn, .clo { color: #440 }
+  .tag { color: #006; font-weight: bold }
+  .atn { color: #404 }
+  .atv { color: #060 }
+}
+
+/* Put a border around prettyprinted code snippets. */
+pre.prettyprint {
+  font-family: Lucida Console, Monaco5, monospace;
+  width: 650px;
+  word-wrap: break-word;
+  margin: 0 0 1em 2em;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums { margin-top: 0; margin-bottom: 0 } /* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L5,
+li.L6,
+li.L7,
+li.L8 { list-style-type: none }
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 { background: #eee }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ site.title ? site.title : page.title }}</title>
+
+    <link rel="shortcut icon" href="http://www.funddy.com/bundles/funddywebsite/images/app-icons/favicon.ico">
+
+    <meta name="description" content="{{ (site.content ? site.content : page.content) | summarize }}" />
+
+    <link href="/css/main.css" rel="stylesheet" media="all">
+
+    <meta property="fb:app_id" content="48119224995" />
+    <meta property="og:site_name" content="funddy" />
+    <meta property="og:title" content="{{ site.title ? site.title : page.title }}"/>
+    <meta property="og:url" content="{{ site.url ? site.url : page.url }}" />
+    <meta property="og:description" content="{{ (site.content ? site.content : page.content) | summarize }}" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="{{ (site.content ? site.content : page.content) | summarize }}" />
+    <meta name="twitter:title" content="{{ site.title ? site.title : page.title }}" />
+    <meta name="twitter:url" content="{{ site.url ? site.url : page.url }}" />
+
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <h1><a href="/" title="Home">funddy <span>blog</span></a></h1>
+
+
+      <p id="description">Welcome to <a href="https://funddy.com">Funddy</a>'s blog, an online service that enables everyday people to raise money for everything that matters.</p>
+
+    </header>
+    
+    <ol id="posts">
+      {{content}}
+    </ol>
+
+    <footer>
+      <ol>
+        <li><a href="https://twitter.com/funddy" title="funddy on Twitter">Twitter</a></li>
+        <li><a href="http://www.facebook.com/funddy">Facebook</a></li>
+      </ol>
+    </footer>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33878181-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
