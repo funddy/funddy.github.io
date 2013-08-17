@@ -2,6 +2,7 @@
 layout: post
 title: "Bienvenidos al blog de funddy :)"
 description: "Hemos empezado nuestro proyecto con muchísima ilusión y queremos ir contándoos todo lo posible sobre el desarrollo y evolución de esta aventura, que poco a poco va tomando forma."
+locale: es
 ---
 
 Hemos empezado nuestro proyecto con muchísima ilusión y queremos ir contándoos todo lo posible sobre el desarrollo y evolución de esta aventura, que poco a poco va tomando forma.

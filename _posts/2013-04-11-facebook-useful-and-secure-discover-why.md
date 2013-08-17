@@ -2,6 +2,7 @@
 layout: post
 title: "Facebook. Useful and Secure, discover why"
 description: "From the beginning something has been in our minds. Lots of ideas, searching for feedback and ideas from other projects. But in the end we always ended up at the same point: The easiest way to register is via Facebook. And not only that, it’s also a way to verify the user who is creating his campaign here at Funddy."
+locale: en
 ---
 
 From the beginning something has been in our minds. Lots of ideas, searching for feedback and ideas from other projects. But in the end we always ended up at the same point: The easiest way to register is via Facebook. And not only that, it’s also a way to verify the user who is creating his campaign here at Funddy.

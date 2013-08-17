@@ -2,6 +2,7 @@
 layout: post
 title: "Preparados, Listos…"
 description: "Estamos muy nerviosos, queremos que lo sepáis. Después de muchas horas de trabajo, con inmersiones en customer journey, UX y mas “tasks” de desarrollo de producto, por fin estamos preparados para sacar a la calle algo de lo que nos sentimos muy orgullosos."
+locale: es
 ---
 
 ![Rocket](http://i.imgur.com/wVMVOnz.png)

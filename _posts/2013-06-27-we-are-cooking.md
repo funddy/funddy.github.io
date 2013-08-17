@@ -2,6 +2,7 @@
 layout: post
 title: "We are cooking"
 description: "Quite a long time ago (almost a month) we have not given people anything to talk about. And the reason is we are cooking an order."
+locale: en
 ---
 
 Quite a long time ago (almost a month) we have not given people anything to talk about. And the reason is we are cooking an order.

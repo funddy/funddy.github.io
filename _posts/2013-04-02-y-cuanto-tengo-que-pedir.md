@@ -2,6 +2,7 @@
 layout: post
 title: "¿Y cuanto tengo que pedir?"
 description: "Como ya decíamos en el post anterior nuestros valores son: fácil, abierto y seguro."
+locale: es
 ---
 
 Como ya decíamos en el post anterior nuestros valores son: fácil, abierto y seguro.

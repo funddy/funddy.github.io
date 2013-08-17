@@ -2,12 +2,4 @@
 layout: default
 ---
 
-<li>
-  <div class="post text">
-    <h4><a href="{{ page.url }}" title="{{ page.title }}">{{ page.date | date_to_string }}</a></h4>
-
-    <h3>{{ page.title }}</h3>
-                             
-    {{ content }}
-  </div>
-</li>
+{% include post.html post=page content=content %}

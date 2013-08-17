@@ -1,0 +1,9 @@
+<li>
+  <div class="post text">
+    <h4><a href="{{ include.post.url }}" title="{{ include.post.title }}">{{ include.post.date | date_to_string }}</a></h4>
+
+    <h3>{{ include.post.title }}</h3>
+                             
+    {{ include.content }}
+  </div>
+</li>
