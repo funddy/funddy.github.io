@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html class="no-js" lang="es">
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="{{ page.description ? page.description : site.description }}" />
+
     <title>{{ page.title }}</title>
 
     <link rel="shortcut icon" href="/assets/favicon.ico">
-
-    <meta name="description" content="{{ page.description ? page.description : site.description }}" />
-
     <link href="/css/main.css" rel="stylesheet" media="all">
 
     <meta property="fb:app_id" content="48119224995" />
@@ -22,7 +22,8 @@
     <meta name="twitter:title" content="{{ page.title ? page.title : site.title }}" />
     <meta name="twitter:url" content="{{ page.url ? page.url : site.url }}" />
 
-    <meta charset="utf-8">
+    <script src="//use.typekit.net/ywb2rek.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
   </head>
   <body>
     <header>
