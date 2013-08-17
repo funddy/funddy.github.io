@@ -22,6 +22,10 @@
     <meta name="twitter:title" content="{{ page.title ? page.title : site.title }}" />
     <meta name="twitter:url" content="{{ page.url ? page.url : site.url }}" />
 
+    {% if page.redirect %}
+      <script src="/js/main.js"></script>
+    {% endif %}
+
     <script src="//use.typekit.net/ywb2rek.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
   </head>
