@@ -7,7 +7,7 @@ locale: es
 
 Ta-chan!
 
-Aquí lo tienes, tu nuevo site de crewfunding. El servicio que te permite juntar el dinero de tus amigos, familia o compañeros para todas las cosas que se te pasan por la cabeza.
+Aquí lo tienes, tu nuevo site de **crew**-funding. El servicio que te permite juntar el dinero de tus amigos, familia o compañeros para todas las cosas que se te pasan por la cabeza.
 
 Este es nuestro objetivo: Cuando pienses en algo que necesita dinero de personas diferentes, tienes desde hoy la opción de: ¿Hacemos un funddy?
 

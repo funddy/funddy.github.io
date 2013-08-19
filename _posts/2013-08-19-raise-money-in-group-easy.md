@@ -7,7 +7,7 @@ locale: en
 
 Ta-da!
 
-Here you have it, your new crewfunding site. The service that enables you to gather the money from your friends, family or work partners for those things that come across your head.
+Here you have it, your new **crew**funding site. The service that enables you to gather the money from your friends, family or work partners for those things that come across your head.
 
 This is our goal: When you think of something that needs money from different people, from now on, you have the option: Do we funddy?
 
