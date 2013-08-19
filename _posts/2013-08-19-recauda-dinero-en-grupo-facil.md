@@ -1,4 +1,4 @@
----lx
+---
 layout: post
 title: "Recauda dinero en grupo (para lo que quieras), Fácil!"
 description: "Aquí lo tienes, tu nuevo site de crewfunding. El servicio que te permite juntar el dinero de tus amigos, familia o compañeros para todas las cosas que se te pasan por la cabeza."
