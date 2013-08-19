@@ -15,8 +15,8 @@ Hemos trabajado en todas las líneas del servicio para mejorar, para adaptarnos 
 
 Para ello, hoy te presentamos los primeros cambios:
 
-* Planes para todo, para todos.
-* Nuevo diseño, todavía más rápido y más sencillo.
+1. Planes para todo, para todos.
+2. Nuevo diseño, todavía más rápido y más sencillo.
 
 Esto no es lo único, estamos preparando más cosas. Entre ellas una versión PRO que será una pasada y que estamos seguros os gustará, porque tiene todo lo que nos habéis pedido.
 
