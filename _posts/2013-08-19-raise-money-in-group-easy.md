@@ -19,8 +19,6 @@ So, we are presenting the first changes to you:
 
 2) Completely new design, even faster and simplier.
 
-Main features
-
 But this is not it, we are getting much more things ready, among them a PRO version that will be awesome and we’re sure you’ll love, because it has everything you have asked for.
 
 We are also working on two things that will make us to be even closer to you. A mobile version of Funddy and a new plan, dedicated to those of you who have your e-commerce business. We believe this last thing is going to be a big contribution to group payments.
