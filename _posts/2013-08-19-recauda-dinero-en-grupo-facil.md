@@ -23,3 +23,5 @@ Esto no es lo único, estamos preparando más cosas. Entre ellas una versión PR
 Además, estamos trabajando en dos cosa que nos van a hacer mucho más cercanos: una versión móvil de Funddy y un nuevo plan, dedicado a todos aquellos que tenéis vuestro negocio de e-commerce. Esto último estamos seguros que va a ser una gran aportación a los pagos en grupo.
 
 Ahora toca probarlo. No tengas miedo a hacerlo, aprovecha que Funddy existe y monta esa fiesta de fin de semana, junta a la familia para el regalo del abuelo o prepara las invitaciones para tu evento benéfico… Tienes miles de razones para usarlo, anímate y descubre la tuya.
+
+[¡Pruebalo ahora!](https://funddy.com)
