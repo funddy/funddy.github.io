@@ -23,3 +23,5 @@ But this is not it, we are getting much more things ready. Among them a PRO vers
 We are also working on two things that will make us to be even closer to you. A mobile version of Funddy and a new plan, dedicated to those of you who have your e-commerce business. We believe this last thing is going to be a big contribution to group payments.
  
 Now it’s time to try it. Don't be afraid of thinking about it. Just take advante of the fact that Funddy already exists and set up that weekend party, gather together the family for grandpa’s gift, prepare your charitable event... you have tons of reasons to use it, but you need just one to understand why you need it.
+
+[Try it now!](https://funddy.com)
